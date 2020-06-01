@@ -1,12 +1,30 @@
-# Atari 2600 (Stella) support for multiple assemblers
-# - DASM
-# - CC65
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Assembled binaries and object directories
-obj/
-a.out
-*.bin
-*.a26
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Add in special Atari 7800-based binaries for good measure
-*.a78
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
